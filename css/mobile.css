@@ -1,0 +1,192 @@
+/* Utility Classes */
+.display-1 { 
+  font-size: 50px; 
+}
+
+.display-3 { 
+  font-size: 30px; 
+}
+
+/* Navbar */
+#navbar {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+#navbar .logo {
+  float: right;
+}
+
+/* Showcase */
+#showcase {
+  height: 100%;
+  padding: 40px 0;
+}
+
+#showcase p {
+  width: 100%;
+  padding: 20px 0 20px 0;
+}
+
+/* Features */
+#features {
+  padding: 30px 0;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(0, 0, 0, 0.4); */
+
+/* .text {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+} */
+
+.box1 {
+  grid-column: 1;
+  grid-row: 1/3;
+}
+
+.box2 {
+  grid-column: 2;
+  grid-row: 1/3;
+}
+
+.box3 {
+  grid-column: 1;
+  grid-row: 3/5;
+}
+
+.box4 {
+  grid-column: 2;
+  grid-row: 3/5;
+}
+
+.box5 {
+  grid-column: 1;
+  grid-row: 5/7;
+}
+
+.box7 {
+  grid-column: 2;
+  grid-row: 5/7;
+}
+
+.box6 {
+  grid-column: 1/3;
+  grid-row: 7/9;
+}
+
+.box8 {
+  grid-column: 1;
+  grid-row: 9/11;
+}
+
+.box9 {
+  grid-column: 2;
+  grid-row: 9/11;
+}
+
+.box10 {
+  grid-column: 1;
+  grid-row: 11/13;
+}
+
+.box11 {
+  grid-column: 2;
+  grid-row: 11/13;
+}
+
+/* Item */
+#item {
+  padding-top: 0px;
+  padding-bottom: 20px;
+}
+
+.item-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  /* grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch; */
+}
+
+.item-wrapper-txt {
+  padding-top: 10px;
+  
+}
+
+.item-wrapper-txt h2 {
+  padding-bottom: 10px;
+}
+
+.item-wrapper-txt p {
+  padding-bottom: 10px;
+}
+
+.item-wrapper img {
+  width: 100%;
+}
+
+/* Other Products */
+#other-products {
+  padding-bottom: 20px;
+}
+
+#other-products h4 {
+  padding-bottom: 20px;
+}
+
+.wrapper-other-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 1em;
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.product-box1 {
+  grid-column: 1;
+}
+.product-box2 {
+  grid-column: 2;
+}
+.product-box3 {
+  grid-column: 3;
+}
+.product-box4 {
+  grid-column: 4;
+}
+
+.product-box1 img,
+.product-box2 img,
+.product-box3 img,
+.product-box4 img {
+  width: 100%;
+}
+
+/* Footer */
+#mainfooter {
+  padding: 20px;
+}
